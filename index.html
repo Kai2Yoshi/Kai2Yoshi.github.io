@@ -1,74 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jay Dee Magkidong Portfolio</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.config.js"></script>
+    
     <style>
         body {
-            background-image: url('https://i.pinimg.com/originals/1b/45/63/1b456377a9dce67a7dc3630260aa7572.gif');
-            background-size: cover;
-            height: 100vh;
-            padding:0;
-            margin:0;
-        }
-        .container {
-            display: flex;
-            padding: 20px;
-            border-radius: 10px;
-        }
-        .image-section {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        .image-section img {
-            border-radius: 100%;
-            border: 5px solid #d6cdcd;
-            width: 300px;
-        }
-        .text-section {
-            flex: 2;
-            padding-right: 20px;
-            text-align: right;
-        }
-        h1, h2 {
-            color: #ffe600;
-        }
-        p {
+
+            background-color: #2c0a0a;
             color: #ffffff;
-        }
-        .link {
-            color: #00f821;
-            font-weight: bold;
-        }
+            
     </style>
+
 </head>
 <body>
-    <div class="container">
-        <div class="image-section">
-            <img src="https://github.com/Kai2Yoshi/pic/blob/main/IMG_0541.jpg?raw=true" alt="About Me Image">
+    
+
+    <nav class="w-full fixed px-10 lg:px-8 lg:px[8%] py-4 flex items-center justify-center z-50">
+    
+    <ul class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-blue-900 shadow-sm bg-opacity-50 border">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#talents">Talents</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#favorites">Favorites</a></li>
+          <li><a href="#reference">Reference</a></li>
+    
+        
+        </ul>
+          
+    </nav> 
+
+    <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+        <img src="https://github.com/Kai2Yoshi/pic/blob/main/IMG_0541.jpg?raw=true" alt="" class="rounded-full w-32">
+        <h3 class="text-xl md:text-2xl mb-3">Hi my name is Jay Dee Im a Second Year BSIT Student</h3>
+        <a class="blog text-blue-900" href="/fashionn.html">Link To My Fashion Blog</a>
+       
+       
+    </div>
+
+
+<!----about me-->
+<div id="about" class="w-8/12 max-w-3xl  mx-auto h-screen flex flex-col items-center justify-center ">
+    
+    <h2 class="text-center text-5xl">About Me</h2>
+
+    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20  b">
+        <div class="max-w-max mx-auto relative">
+            <img src="https://github.com/Kai2Yoshi/pic/blob/main/IMG_0541.jpg?raw=true" alt="" class="w-64 sm:w-80 rounded-3xl
+             max-w-none">
         </div>
-        <div class="text-section">
-            <h1>Jay Dee Magkidong</h1>
-            <h2>About Me:</h2>
-            <p>I live in Davao City and am a second-year student studying information technology.</p>
-            <h2>Current school:</h2>
-            <p>University of the Immaculate Conception.</p>
-            <h2>Favorites:</h2>
-            <p>Playing Games, Dog, Cats</p>
-            <h2>School Projects:</h2>
-            <p>Created a Java Swing project for a daily time recording system.</p>
-            <h2>Talents:</h2>
-            <p>I don't have any talent.</p>
-            <h2>Reference:</h2>
-            <p><a href="https://www.youtube.com/watch?v=6RuzhtsbSIg" class="link">Boarder style</a></p>
-            <h2>External links:</h2>
-            <p><a href="https://www.facebook.com/JayMagzKido.1528" class="link">Facebook</a></p>
-            <p><a href="https://github.com/Kai2Yoshi" class="link">Github</a></p>
+        <div class="flex-1">
+            <p class="mb-10 max-w-2xl ">Hi My name is Jay Dee I'm a Second Year BSIT student studying at  University of the Immaculate Conception.</p>
+            
+
+          
+            <h4 class="my-6  text-blue-900">Social Medias</h4>
+            <ul class="flex items-center gap-3 sm:gap-5">
+                <a href="https://www.facebook.com/JayMagzKido.1528" class="link" class="link"> <img src="https://store-images.s-microsoft.com/image/apps.37935.9007199266245907.b029bd80-381a-4869-854f-bac6f359c5c9.91f8693c-c75b-4050-a796-63e1314d18c9?h=210" alt="" class="flex items-center justify-center w-7 sm:w-8 aspect-square border border-blue-950 rounded-lg cursor-pointer""></a>
+                
+                <a href="https://github.com/Kai2Yoshi" class="link"> <img src="https://logowik.com/content/uploads/images/github-colored9940.logowik.com.webp" alt="" class="flex items-center justify-center w-7 sm:w-8 aspect-square border border-blue-950 rounded-lg cursor-pointer""></a>
+                
+           
+                
+            </ul>
+
         </div>
     </div>
+</div>
+
+
+<!----TALENTS-->
+<div id="talents" class="w-8/12 max-w-3xl  mx-auto h-screen flex flex-col items-center justify-center ">
+    <h2 class="text-center text-5xl">Talents</h2>
+
+    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
+   <div  class="max-w-max mx-auto relative">
+     <img src="https://signal.avg.com/hs-fs/hubfs/Blog_Content/Avg/Signal/AVG%20Signal%20Images/how_to_improve_your_gaming_pc_performance_2nd_refresh_signal/How_to_Improve_Your_Gaming_PC_Performance-Hero.jpg?width=1200&name=How_to_Improve_Your_Gaming_PC_Performance-Hero.jpg" alt="" class="w-64 sm:w-80 rounded-3xl
+             max-w-none">
+            </div>
+            <div class="flex-1">
+    <p class==mb-10 max-w-2x1>PLAYING GAMES</p>
+</div>
+</div>
+</div>
+
+<!----project-->
+<div id="projects" class="w-8/12 max-w-3xl  mx-auto h-screen flex flex-col items-center justify-center ">
+    <h2 class="text-center text-5xl">Project</h2>
+
+    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
+   <div  class="max-w-max mx-auto relative">
+     <img src="https://i.pinimg.com/736x/84/a8/05/84a805d7f29d1d37cb36e20f06712ae1.jpg" alt="" class="w-64 sm:w-80 rounded-3xl
+             max-w-none">
+            </div>
+            <div class="flex-1">
+    <p class==mb-10 max-w-2x1>This project to monitor the daily time in and time out to the employee.</p>
+</div>
+</div>
+</div>
+
+
+<!----favorites-->
+<div id="favorites" class="w-8/12 max-w-3xl  mx-auto h-screen flex flex-col items-center justify-center  ">
+    <h2 class="text-center text-5xl">Favorites</h2>
+
+    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
+   <div  class="max-w-max mx-auto relative">
+     <img src="https://www.outdoorkeeda.com/images/outdoorkeeda-nature-campingi-1.jpg" alt="" class="w-64 sm:w-80 rounded-3xl
+             max-w-none">
+            </div>
+            <div class="flex-1">
+    <p class==mb-10 max-w-2x1>I love spending time with friends and trying new, exciting activities. Whether we’re playing games, going on adventures, or just laughing together, I enjoy the energy and spontaneity. Exploring new hobbies and cool places around town makes it even better. It’s all about having fun, making memories, and enjoying life’s little moments with those I care about..</p>
+</div>
+</div>
+</div>
+
+<!----reference-->
+<div id="reference" class="w-8/12 max-w-3xl  mx-auto h-screen flex flex-col items-center justify-center  ">
+    <h2 class="text-center text-5xl">Reference</h2>
+
+    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
+   <div  class="max-w-max mx-auto relative">
+    <ul class="flex items-center gap-3 sm:gap-5">
+                <a href="https://www.youtube.com/watch?v=zJOj4ZC_Yrw&list=LL&index=1&t=4624s&ab_channel=GreatStack" class="link"> <img src="https://github.com/aldwinbucio/aldwinbucio.github.io/blob/main/ytube.jpg?raw=true" alt="" class="flex items-center justify-center w-17 sm:w-32 aspect-square border border-blue-950 rounded-lg cursor-pointer""></a>
+                
+           
+   
+</div>
+</div>
+</div>
+
+
+
+
 </body>
 </html>
