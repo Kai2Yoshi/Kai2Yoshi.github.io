@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(https://images8.alphacoders.com/135/thumb-1920-1354012.png);
+    background-image: url(https://i.pinimg.com/originals/64/05/31/6405318ac146473a95bfbdcec2b32943.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,30 +16,51 @@ body {
     min-height: 100vh;
 }
 
+
 header {
-    background-color: rgb(50, 173, 102); 
+    background-color: rgba(82, 75, 105, 0.877); 
     color: white;
-    padding: 20px 0;
-    text-align: center;
+    padding: 20px;
     position: fixed;
-    width: 100%;
     top: 0;
+    left: 0;
+    height: 100vh; 
+    width: 100px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     z-index: 1000;
+}
+
+
+header h1 {
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 24px;
+    text-align: left;
+}
+
+header nav {
+    width: 100%;
 }
 
 header nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 header nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin-bottom: 130px;
 }
 
 header nav ul li a {
+   
     color: white;
     text-decoration: none;
-    font-size: 19.2px; 
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .centered-content {
@@ -54,7 +75,7 @@ header nav ul li a {
 .centered-image {
     width: 300px; 
     height: 300px; 
-    border: 5px solid #6ebe38; 
+    border: 5px solid #9999c0; 
     border-radius: 50%; 
     object-fit: cover; 
     margin-bottom: 20px; 
@@ -96,11 +117,11 @@ header nav ul li a {
     display: inline-block;
     width: 50%;
     margin: 0 10px;
-    background-color: rgba(165, 163, 163, 0.6); 
+    background-color: rgba(85, 83, 83, 0.6); 
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgb(0, 255, 85);
-    border: 3px solid #8fca73;
+    box-shadow: 0 2px 10px rgb(111, 0, 255);
+    border: 3px solid #ffffff;
     margin-bottom: 50px;
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px); 
@@ -132,14 +153,14 @@ header nav ul li a {
 }
 
 .favorites-desc {
-display: inline-block;
+    display: inline-block;
     width: 50%;
     margin: 0 10px;
-    background-color: rgba(109, 109, 109, 0.6); 
+    background-color: rgba(85, 83, 83, 0.6); 
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgb(0, 255, 85);
-    border: 3px solid #8fca73;
+    box-shadow: 0 2px 10px rgb(111, 0, 255);
+    border: 3px solid #ffffff;
     margin-bottom: 50px;
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px); 
@@ -178,17 +199,17 @@ display: inline-block;
 }
 
 .projects-desc {
-display: inline-block;
+    display: inline-block;
     width: 50%;
     margin: 0 10px;
-    background-color: rgba(109, 109, 109, 0.6); 
+    background-color: rgba(85, 83, 83, 0.6); 
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgb(0, 255, 85);
-    border: 3px solid #8fca73;
+    box-shadow: 0 2px 10px rgb(111, 0, 255);
+    border: 3px solid #ffffff;
     margin-bottom: 50px;
     backdrop-filter: blur(10px); 
-    -webkit-backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);  
 }
 
 
@@ -224,14 +245,14 @@ display: inline-block;
 }
 
 .talents-desc {
-display: inline-block;
+    display: inline-block;
     width: 50%;
     margin: 0 10px;
-    background-color: rgba(109, 109, 109, 0.6); 
+    background-color: rgba(85, 83, 83, 0.6); 
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgb(0, 255, 85);
-    border: 3px solid #8fca73;
+    box-shadow: 0 2px 10px rgb(111, 0, 255);
+    border: 3px solid #ffffff;
     margin-bottom: 50px;
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px); 
@@ -269,17 +290,17 @@ display: inline-block;
 }
 
 .contact-desc {
-display: inline-block;
+    display: inline-block;
     width: 50%;
     margin: 0 10px;
-    background-color: rgba(109, 109, 109, 0.6); 
+    background-color: rgba(85, 83, 83, 0.6); 
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgb(0, 255, 85);
-    border: 3px solid #8fca73;
+    box-shadow: 0 2px 10px rgb(111, 0, 255);
+    border: 3px solid #ffffff;
     margin-bottom: 50px;
     backdrop-filter: blur(10px); 
-    -webkit-backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);  
 }
 
 
@@ -302,7 +323,7 @@ display: inline-block;
 }
 
 .contact-link:hover {
-    background-color: #21b80d; 
+    background-color: #6b0db8; 
     color: white;
 }
 
@@ -328,18 +349,18 @@ display: inline-block;
     font-family: 'Courier New', sans-serif;
     font-size: 17.6px; 
     line-height: 1.6;
-    color: rgb(32, 252, 43); 
+    color: rgb(20, 211, 201); 
 }
 
 .html-desc {
     display: inline-block;
     width: 50%;
     margin: 0 10px;
-    background-color: rgba(109, 109, 109, 0.6); 
+    background-color: rgba(85, 83, 83, 0.6); 
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgb(0, 255, 85);
-    border: 3px solid #8fca73;
+    box-shadow: 0 2px 10px rgb(111, 0, 255);
+    border: 3px solid #ffffff;
     margin-bottom: 50px;
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px); 
@@ -347,8 +368,8 @@ display: inline-block;
 
 h2 {
     font-family: 'Source Code Pro', monospace;
-    font-size: 24px; /* Adjust this value as needed */
-    font-weight: normal; /* Ensures the text is not bold */
+    font-size: 24px; 
+    font-weight: normal; 
     margin-bottom: 15px;
     color: rgb(255, 255, 255);
 }
