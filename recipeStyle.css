@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-top: 0;
+  }
+  
+  h2 {
+    color: #444;
+    font-size: 1.8em;
+    margin-top: 20px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 1.1em;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+
+  .description {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+
+  .cook-time {
+    font-weight: bold;
+    color: #ff6f61;
+    margin-bottom: 15px;
+  }
+  
+ 
+  ul.ingredients {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  ul.ingredients li {
+    margin-bottom: 5px;
+  }
+  
+
+  ol {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  ol li {
+    margin-bottom: 15px;
+  }
+  
+  ol li p {
+    margin: 5px 0;
+  }
+  
+
+  .time {
+    font-weight: bold;
+    color: #ff6f61;
+  }
+  
+
+  .external-link {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .external-link:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  .citation {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #888;
+  }
+  
