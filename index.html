@@ -2,118 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-</head>
-
-
-
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#favorites">Favorites</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#talents">Talents</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul class='nav-bar'>
+            <li class='logo'><a href='#About'><img src='https://i.gifer.com/6vw5.gif'/></a></li>
+            <input type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Favorite">Favorite</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li>
+                    <button id="theme-toggle">🌙</button>
+                </li>
 
 
-
-
-    <section class="centered-content">
-        <img src="https://raw.githubusercontent.com/Kai2Yoshi/pic/main/338118441_875117773576536_7949482389638493052_n.jpg" alt="Jay Dee Magkidong" class="centered-image">
-        <div class="name">
-            <h1>Hi I'm Jay Dee</h1>
-        </div>
-    </section>
-
-
-    
-    <section id="about" class="about">
-        <div class="about-desc">
-        <h1>About Me</h1>
-        <p>I am a college student pursuing a Bachelor of Science in Information Technology at the University of the Immaculate Conception in Davao City. As an IT student, I am deeply engaged in both my academic studies and personal projects, aiming to expand my expertise in the field. Living in the vibrant city of Davao, I am also exploring opportunities to apply my skills in real-world scenarios and contribute to my community..</p>
-        </div>
-    </section>
-
-
-
-    <section id="favorites" class="favorites">
-        <div class="favorites-desc">
-            <h1>Favorites</h1>
-
-            <ul>
-                <h2>Playing Online Games</h2>
-                <h2>Editing</h2>
-                <h2>Bonding With Friends</h2>
-      
-            </ul>
-        </div>
-    </section>
-
-
-
-
-    <section id="projects" class="projects">
-        <div class="projects-desc">
-            <h1>Projects</h1>
-            <ul>
-                <h2>Daily Time Record System</h2>
-                <h2>Oxyfier Project</h2>
-            </ul>
-        </div>
-    </section>
-
-
-
-
-    <section id="talents" class="talents">
-        <div class="talents-desc">
-            <h1>Talents</h1>
-            <ul>
-                <h2>Photoshop Edting and Video</h2>
-            </ul>
-        </div>
-    </section>
-
-
-    <section id="contact" class="contact">
-        <div class="contact-desc">
-            <h1>Contact</h1>       
-            <ul>
-                <a href="https://www.facebook.com/JayMagzKido.1528" target="_blank" class="contact-link" style="text-decoration: none; color: white;">
-                    <i class="fab fa-facebook-f" style="font-size: 1.5rem; margin-right: 8px;"></i> Facebook
-                </a>
-                <a href="https://github.com/Kai2Yoshi" target="_blank" class="contact-link" style="text-decoration: none; color: white;">
-                    <i class="fab fa-github" style="font-size: 1.5rem; margin-right: 8px;"></i> Github
-                </a>
-
-                <a href="https://www.instagram.com/kaiibanana" target="_blank" class="contact-link" style="text-decoration: none; color: white;">
-                    <i class="fab fa-instagram" style="font-size: 1.5rem; margin-right: 8px;"></i> Instagram
-                </a>
-            </ul>
-        </div>
-    </section>
-
-
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+</header>
 
     
-    
-    <section id="html" class="html">
-        <div class="html-desc">
-            <h1>HTML Activities</h1>
-            <a href="/fashion.html" target="_blank">Fashion Blog</a>
-            <a href="/recipe.html" target="_blank">Healthy Recipes</a>
-        </div>
-    </section>
-    
+  <section id="About">
+    <h2>About Me</h2>
+    <div class="profile-container">
+      <img src="https://raw.githubusercontent.com/Kai2Yoshi/pic/refs/heads/main/IMG_0541.jpg" alt="Profile Picture" class="profile-pic">
+      <p>I'm Jay Dee, a student from UIC studying BSIT. I'm really passionate about technology and always eager to learn new things. I love combining creativity with technical skills to tackle real-world problems. Whether it’s coding, designing, or figuring out solutions, I’m excited to explore how tech can make a difference</p>
+    </div>
+  </section>
+
+
+  <section id="Education">
+    <h2>Education</h2>
+       <div class="education-desc">
+           <img src="https://raw.githubusercontent.com/Kai2Yoshi/pic/refs/heads/main/uic-logo2-(1).png" alt="school logo" class="school">
+           <img src="https://raw.githubusercontent.com/Kai2Yoshi/pic/refs/heads/main/310431219_481120037366348_442799740001011698_n.jpg" alt="school logo" class="school">
+           <p>Bachelor of Science in Information Technology-UIC</p>
+           <p>College of Computer Studies</p>       
+   </div>  
+ </section>
+
+
+ <section id="Skills">
+   <h2>Skills</h2>
+
+   <div class="skill-desc">
+       <img src="https://www.cnet.com/a/img/resize/90f03ede17b6b242685ad84188c7043c1bb129ae/hub/2011/01/18/79cf7b0c-fdb4-11e2-8c7c-d4ae52e62bcc/HTML5-wow.png?auto=webp&fit=crop&height=675&width=1200" alt="skills logo" class="skills">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSubsfvX1GCHF8amyfEQxTz7AECFDY-oGMVTg&s" alt="skills logo" class="skills">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalwiygdoYom95fNPJoFm2Y2w8wyJh0MxWOg&s" alt="skills logo" class="skills">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="skills logo" class="skills">
+
+       <p>These are my skills: I know HTML and CSS for creating responsive web layouts, Java for backend development, and JavaScript for adding interactive features. Together, I can build solid web applications</p1>
+     
+   </div>
+ </section>
+
+
+ <section id="Favorite">
+   <h2>Favorite</h2>
+   <p>MUSIC</p>
+   <div class="favorite-desc">
+       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ktwpsPRPkAwUGyYxeHd4L?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+   </div>
+ </section>
+
+
+ <section id="Project">
+   <h2>School Projects</h2>
+   <div class="project-desc">
+       <p>Daily Time Record System</p>
+       <p>Oxyfier Project</p>    
+       
+    <a href="fashion.html">Go to fashion</a>
+    <a href="recipes.html">Go to recipes</a>
+  
+   </div>
+
+
+</section>
+
+ <section id="Contact">
+   <h2>Contact</h2>
+   <div class="contact-desc">
+       <a href="https://www.facebook.com/JayMagzKido.1528" target="_blank" class="contact-link" style="text-decoration: none; color: white;">
+           <i class="fab fa-facebook-f" style="font-size: 1.5rem; margin-right: 8px;"></i> Facebook
+       </a>
+       <a href="https://github.com/Kai2Yoshi" target="_blank" class="contact-link" style="text-decoration: none; color: white;">
+           <i class="fab fa-github" style="font-size: 1.5rem; margin-right: 8px;"></i> Github
+       </a>
+       <a href="https://www.instagram.com/kaiibanana" target="_blank" class="contact-link" style="text-decoration: none; color: white;">
+           <i class="fab fa-instagram" style="font-size: 1.5rem; margin-right: 8px;"></i> Instagram
+       </a>
+       </div>
+</section>
+
+<script src="scripts.js"></script>
+
 </body>
 </html>
