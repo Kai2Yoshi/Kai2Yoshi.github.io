@@ -39,11 +39,13 @@ async function searchMovie() {
             return;
         }
     
-        const apiUrl = `http://www.omdbapi.com/?t=${encodeURIComponent(movieTitle)}&apikey=3d913844`;
+        const apiUrl = `https://www.omdbapi.com/?t=${encodeURIComponent(movieTitle)}&apikey=3d913844`;
     
         try {
+            console.log("Fetching movie:", movieTitle, apiUrl); // Debugging
             const response = await fetch(apiUrl);
             const data = await response.json();
+            console.log("API Response:", data); // Debugging
     
             if (data.Response === "True") {
                 // Update UI with movie data
@@ -67,6 +69,6 @@ async function searchMovie() {
             console.error("Error fetching movie details:", error);
             document.getElementById('movieTitle').textContent = "An error occurred!";
             document.getElementById('moviePoster').style.display = 'none';
-            document.getElementById('movieDetails').textContent = "Please try again.";
+            document.getElementById('movieDetails').textContent = error.message || "Please try again.";
         }
     }
