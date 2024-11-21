@@ -226,17 +226,15 @@ span {
   border-radius: 0.5rem;
 }
 .html-bar {
-  width: 94%;
+  width: 70%;
 }
 .css-bar {
-  width: 84%;
+  width: 40%;
 }
 .js-bar {
-  width: 74%;
+  width: 20%;
 }
-.react-bar {
-  width: 80%;
-}
+
 .services-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
